@@ -1,0 +1,17 @@
+[
+	{
+		"keys":["alt+1"], "command":"goto_css_declaration",
+		"args":{"goto": "next"},
+	},
+		{"keys": ["alt+`"], "command": "tag_classes"},
+		{ "keys": ["ctrl+alt+l"], "command": "reindent", "args": {"single_line": false}},
+
+	// Togle Terminus panel (at the bottom of the screen) Open/Closed when Alt+' is pressed
+	{
+		// The key press to look out for
+		"keys": ["ctrl+t"],
+
+		// Toggle the panel
+		"command": "toggle_terminus_panel"
+	},
+]
